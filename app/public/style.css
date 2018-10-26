@@ -1,0 +1,61 @@
+
+/* Full site */
+body {
+    background-color: #616161;
+}
+
+a {
+    color: #c8e6c9;
+}
+
+a:hover {
+    color: #BDBDBD;
+}
+
+/* Home page */
+#enter {
+    background-color: #9E9E9E;
+    border-radius: 3px;
+}
+
+#header {
+    background-color: #9E9E9E;
+    border-radius: 3px;
+    padding: 10px 10px 20px 10px;
+    
+}
+
+/* Survey */
+
+.input-field input:focus + label {
+    color: #BDBDBD !important;
+}
+
+.row .input-field input:focus {
+    border-bottom: 1px solid #BDBDBD !important;
+    box-shadow: 0 1px 0 0 #BDBDBD !important;
+}
+
+#explanation {
+    background-color: #9E9E9E;
+    border-radius: 3px;
+}
+
+.question {
+    background-color: #9E9E9E;
+    border-radius: 3px;
+    padding-top: 1px;
+}
+
+.makeTextBlack {
+    color: #000 !important;
+    padding: 0px 25px 0px 25px !important;
+}
+
+[type="radio"]:checked+span:after, [type="radio"].with-gap:checked+span:after {
+    background-color: #2e7d32;
+}
+
+[type="radio"]:checked+span:after, [type="radio"].with-gap:checked+span:before, [type="radio"].with-gap:checked+span:after {
+    border: 2px solid #2e7d32;
+}
